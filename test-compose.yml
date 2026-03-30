@@ -1,0 +1,6 @@
+services:
+  web:
+    image: hashicorp/http-echo
+    ports:
+      - "5678"
+    command: ["-text=Hola desde ephemeral.demos!"]
